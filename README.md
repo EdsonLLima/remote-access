@@ -18,8 +18,12 @@ A aplicação é dividida em dois componentes principais: um servidor (a ser ins
 ### Passo 1: Estabelecendo a Conexão com Sockets
 Nesta etapa inicial, a base de comunicação em tempo real foi estabelecida. O código de servidor e cliente foi implementado para permitir a conexão e garantir que a comunicação fundamental esteja funcionando.
 
+### Passo 2: Captura e Streaming de Tela
+
+Nesta etapa, foi adicionada a funcionalidade para o servidor capturar a tela e enviá-la para o cliente em tempo real. A biblioteca Pillow foi utilizada para a captura de imagens, permitindo a visualização da tela remota.
+
 ### Próximos Passos
 
-- [ ] Implementar captura e streaming de tela.
 - [ ] Adicionar controle de mouse e teclado.
 - [ ] Melhorar a interface do usuário.
+- [ ] Implementar a lógica de empacotamento da aplicação.
