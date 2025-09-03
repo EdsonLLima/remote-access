@@ -22,8 +22,11 @@ Nesta etapa inicial, a base de comunicação em tempo real foi estabelecida. O c
 
 Nesta etapa, foi adicionada a funcionalidade para o servidor capturar a tela e enviá-la para o cliente em tempo real. A biblioteca Pillow foi utilizada para a captura de imagens, permitindo a visualização da tela remota.
 
+### Passo 3: Controle Remoto de Mouse e Teclado
+
+Nesta etapa, a aplicação foi aprimorada para permitir o controle total da máquina remota. A biblioteca `pyautogui` foi integrada para simular eventos de mouse (movimento e cliques) e teclado, tornando o acesso remoto funcional para interações do usuário.
+
 ### Próximos Passos
 
-- [ ] Adicionar controle de mouse e teclado.
 - [ ] Melhorar a interface do usuário.
 - [ ] Implementar a lógica de empacotamento da aplicação.
